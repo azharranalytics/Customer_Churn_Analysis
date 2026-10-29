@@ -1,0 +1,21 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local environment variables
+.env
+
+# Exclude datasets; document their source in README
+Data/Raw/*.csv
+Data/Processed/*.csv
+
+# Temporary files
+*.log
